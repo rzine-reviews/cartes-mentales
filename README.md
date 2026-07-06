@@ -13,7 +13,7 @@ Hugues Pecout (Géographie-cités, CNRS)
 **Résumé :**  
 L’article décrit une méthode reproducible pour synthétiser des corpus de cartes mentales en sciences humaines et sociales. Conçue pour dépasser l’interprétation qualitative des dessins individuels, elle formalise une chaîne de traitement complète : les cartes mentales converties en données géographiques sont agrégées sur une grille régulière pour mesurer la densité ou le recouvrement des tracés sur une même matrice. À partir de ces agrégations, des cartes de chaleur et des isolignes sont générées afin de visualiser des tendances collectives dans les représentations spatiales. Cette méthode, applicable dans différents contextes et terrains d’enquête, fournit un cadre standardisé facilitant la comparaison entre corpus variés et combinant éléments qualitatifs des dessins avec des mesures objectives et reproductibles utiles à l’analyse en SHS.
 
-Pour le consulter, cliquez [ici](https://imageun-rzine-fbca1d.gitpages.huma-num.fr/#corpus-de-cartes-utilis%C3%A9s)
+Pour le consulter, cliquez [ici](https://rzine-reviews.github.io/cartes-mentales/)
 
 <br/>  
 
