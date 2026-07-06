@@ -1,0 +1,22 @@
+% /* TODO: Use include-in-header.tex to format the latex/pdf output */
+
+% TikZ, couleurs, tableaux, ORCID
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{orcidlink}
+\usepackage{lineno}
+\usepackage{draftwatermark}
+
+% Uniquement corps du texte en Libertinus
+\usepackage{fontspec}
+\setmainfont{Libertinus Serif}
+
+% Retours à la ligne dans les chunks
+\usepackage{fvextra}
+\fvset{breaklines=true, commandchars=\\\{\}, breaksymbolleft={}, breakindentnchars=8}
+
+% Légendes italique + plus petit
+\usepackage{caption}
+\captionsetup[figure]{font=it, size=small}
+\captionsetup[table]{font=it, size=small}

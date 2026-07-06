@@ -1,0 +1,53 @@
+project:
+  title: "rzine-template"
+  render: 
+    - index.qmd
+
+title: Synthétiser un corpus de cartes mentales
+subtitle: "Cartographie agrégée de représentations spatiales"
+date: today
+# date-modified: last-modified
+author:
+  - name: "Camille Dabestani"
+    affiliations:
+      - name: "CNRS (PEPR VF2+), UMR ESO | UMR Géographie-cités"
+        url: "https://eso.cnrs.fr/fr"
+    orcid: 0009-0001-5907-1773
+  - name: "Jean Makhlouta"
+    affiliations:
+      - name: "Geography, Planning and Environment Department, Radboud University | UMR Géographie-cités"
+        url: "https://geographie-cites.cnrs.fr/"
+  - name: "Elina Marveaux"
+    affiliations:
+      - name: "Université Gustave Eiffel, Laboratoire AME-SPLOTT"
+        url: "https://splott.univ-gustave-eiffel.fr"
+    orcid: 0009-0000-8667-3019
+  - name: "Hugues Pecout"
+    affiliations:
+      - name: "CNRS | UMR Géographie-cités"
+        url: "https://geographie-cites.cnrs.fr/"
+    orcid: https://orcid.org/0000-0002-0246-0954
+    
+keywords: [carte mentale, carte de chaleur, isoligne, régionalisation, méthodes mixtes]
+abstract: |
+     L’article présente une méthode cartographique reproductible permettant de synthétiser des corpus de cartes mentales dans une démarche mixte s'inscrivant dans les champs des sciences sociales. Nous formalisons ainsi chaque étape de la chaîne de traitement adaptée pour des cartes mentales papiers et numériques en prenant appui sur deux recherches récentes. Les cartes mentales sont converties en données géographiques et agrégées sur une grille régulière afin de mesurer la densité ou le recouvrement des tracés sur une même matrice. À partir de ces agrégations, des cartes de chaleur et des isolignes sont générées afin de visualiser des tendances collectives dans les représentations spatiales. Cette méthode, applicable dans différents contextes et terrains d’enquête, fournit un cadre facilitant la comparaison entre des corpus variés, permettant de combiner matériaux et démarches qualitatives (cartes mentales et sensibles, entretiens, etc.) et quantitatives (cartographie de synthèse, indicateurs, comparaison, etc.).
+     
+draft: true # set to false once the build is running
+published: false 
+doi: "10.xxxx/xxx-xxx"
+
+other-links:
+  - text: Code source
+    icon: github
+    href: "https://github.com/rzine-reviews/rzine-article-template"
+
+embed-resources: true
+lang: fr-FR 
+repo: "template"
+css: style.css
+format:
+  rzine-html: default
+  rzine-pdf: default
+
+
+

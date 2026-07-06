@@ -1,0 +1,80 @@
+title: Template article Rzine
+author: Rzine CoreTeam
+version: 0.1.0
+quarto-required: ">=1.5.0"
+contributes:
+  formats:
+    common:
+      toc: true
+      number-sections: true
+      anchor-sections: true
+      toc-title: Table des matières
+      code-copy: true
+      code-overflow: wrap
+      code-block-border-left: false
+      code-block-background: true
+      code-block-bg: "#f4f9ff"
+      highlight-style: github
+      bibliography: references.bib  
+      csl: universite-de-montreal-apa.csl
+      license: "CC BY-SA"
+      css: styles.css
+      date-format: long
+      shortcodes:
+        # You can include here Lua filters defining shortcodes from your extension
+        - shortcodes.lua
+      citation:
+        type: article-journal
+        container-title: Rzine
+        issn: 2743-8791
+
+    pdf:
+      papersize: a4
+      geometry: 
+        - a4paper
+        - textheight=24cm
+        - textwidth=15.5cm
+      fontsize: 11pt
+      # monofont: "Montserrat"
+      monofontoptions:
+        - Scale=0.92
+      lof: true
+      lof-title: "liste des figures"
+      lot: true
+      include-in-header:
+        - "partials/pdf/include-in-header.tex"
+      template-partials:
+        - "partials/pdf/before-body.tex"
+      format-resources:
+        - logo.png
+        - cc-by.png 
+      fig-width: 7
+      fig-height: 5
+    
+    html:
+      title-block-banner: "#0c3762"
+      title-block-banner-color: "#C4D6EE"
+      tbl-cap-location: margin
+      cap-location: margin
+      template-partials:
+          - "partials/html/title-block.html"
+          - "partials/html/title-metadata.html"
+      reference-location: document    
+      hover-citations: true
+      hover-footnotes: true
+      fig-format: svg
+      fig-width: 7
+      fig-height: 5
+      code-summary: "Cacher/Montrer le code"
+      code-fold: false
+      link-external-newwindow: true
+      crossref:
+        sec-prefix: Partie
+        eq-prefix: Equation
+        fig-prefix: Figure
+        tbl-prefix: Table
+        html-math-method: katex
+    
+    
+
+
